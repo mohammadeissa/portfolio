@@ -22,8 +22,8 @@ function Home() {
         <a className="resume-btn" href="/resume.pdf" download>Download Resume</a>
 
         <div className="social-links">
-          <a href="https://github.com/mohammadeissa" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/mohammad-eissa-1a915b2a9/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/mohammadeissa" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/mohammad-eissa-1a915b2a9/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
 
