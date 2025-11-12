@@ -88,43 +88,90 @@
   z-index: 1;
 }
 
-/* ===== Responsive Styles for Home ===== */
+/* ===== Responsive Styles for Home (Refined) ===== */
+
+/* Tablet adjustments */
 @media (max-width: 1024px) {
   .hero {
-    padding: 60px 40px;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 40px;
+  }
+
+  .hero-content {
+    max-width: 80%;
+    margin-bottom: 50px;
   }
 
   .hero-image img {
     width: 400px;
     height: 400px;
   }
+
+  .circle-bg {
+    width: 460px;
+    height: 460px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+
+  .hero-text {
+    font-size: 17px;
+  }
 }
 
+/* Mobile optimization */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 60px 20px;
   }
 
   .hero-content {
-    max-width: 100%;
+    max-width: 95%;
   }
 
-  .hero-image {
-    margin-top: 40px;
+  .hero-title {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .small-title {
+    font-size: 13px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .resume-btn {
+    padding: 12px 24px;
+    font-size: 16px;
   }
 
   .hero-image img {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
   }
 
   .circle-bg {
-    width: 380px;
-    height: 380px;
-    top: -20px;
+    width: 340px;
+    height: 340px;
+    top: -15px;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .social-links a {
+    margin-right: 15px;
+    font-size: 16px;
   }
 }

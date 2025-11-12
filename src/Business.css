@@ -43,3 +43,30 @@
     padding: 0 20px;
   }
 }
+
+
+/* ===== Responsive Styles for Business ===== */
+@media (max-width: 1024px) {
+  .overlay h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .business-page {
+    height: 80vh;
+  }
+
+  .overlay {
+    backdrop-filter: brightness(0.3);
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .overlay h1 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.3;
+  }
+}
