@@ -5,6 +5,7 @@
   padding: 100px 120px;
   background: var(--bg-color);
   min-height: 90vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .hero-content {
@@ -15,7 +16,7 @@
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: var(--accent-color);
+  color: #00b894; /* static green accent */
 }
 
 .hero-title {
@@ -27,7 +28,7 @@
 }
 
 .highlight {
-  color: var(--accent-color);
+  color: #00b894; /* static green accent */
 }
 
 .hero-text {
@@ -40,7 +41,7 @@
 .resume-btn {
   display: inline-block;
   padding: 12px 25px;
-  background: var(--accent-color);
+  background: #00b894; /* static green accent */
   color: #fff;
   border-radius: 30px;
   text-decoration: none;
@@ -49,7 +50,7 @@
 }
 
 .resume-btn:hover {
-  background: var(--accent-hover-color);
+  background: #019f81; /* static hover color */
 }
 
 .social-links {
@@ -59,7 +60,7 @@
 .social-links a {
   margin-right: 20px;
   font-weight: bold;
-  color: var(--accent-color);
+  color: #00b894; /* static green accent */
   text-decoration: none;
 }
 
@@ -80,7 +81,7 @@
   width: 680px;
   height: 680px;
   border-radius: 50%;
-  background: rgba(0, 184, 148, 0.15);
+  background: rgba(0, 184, 148, 0.15); /* static green circle */
   position: absolute;
   top: -40px;
   left: -40px;
