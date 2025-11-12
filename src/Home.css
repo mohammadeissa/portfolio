@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 100px 120px;
-  background: #f7f7f7;
+  background: var(--bg-color);
   min-height: 90vh;
 }
 
@@ -15,33 +15,33 @@
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #00b894;
+  color: var(--accent-color);
 }
 
 .hero-title {
   font-size: 50px;
   font-weight: 800;
   margin: 15px 0;
-  color: #222;
+  color: var(--text-color);
   line-height: 1.1;
 }
 
 .highlight {
-  color: #00b894;
+  color: var(--accent-color);
 }
 
 .hero-text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 30px;
-  color: #555;
+  color: var(--secondary-text-color);
 }
 
 .resume-btn {
   display: inline-block;
   padding: 12px 25px;
-  background: #00b894;
-  color: white;
+  background: var(--accent-color);
+  color: #fff;
   border-radius: 30px;
   text-decoration: none;
   font-weight: bold;
@@ -49,7 +49,7 @@
 }
 
 .resume-btn:hover {
-  background: #019f81;
+  background: var(--accent-hover-color);
 }
 
 .social-links {
@@ -59,7 +59,7 @@
 .social-links a {
   margin-right: 20px;
   font-weight: bold;
-  color: #00b894;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@
   width: 680px;
   height: 680px;
   border-radius: 50%;
-  background: rgba(0, 184, 148, 0.15);
+  background: var(--circle-bg-color);
   position: absolute;
   top: -40px;
   left: -40px;
