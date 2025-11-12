@@ -10,7 +10,7 @@ function Home() {
         <h3 className="small-title">3+ Years of Experience</h3>
 
         <h1 className="hero-title">
-          Mohammad Eissa <span className="highlight">  Data Scientist </span>
+          Mohammad Eissa <span className="highlight">Data Scientist</span>
         </h1>
 
         <p className="hero-text">
@@ -19,11 +19,15 @@ function Home() {
           and full-stack development.
         </p>
 
-        <a className="resume-btn" href="/resume.pdf" download>Download Resume</a>
+        <a className="resume-btn" href="/resume.pdf" download>
+          Download Resume
+        </a>
 
         <div className="social-links">
           <a href="https://github.com/mohammadeissa" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/mohammad-eissa-1a915b2a9/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/mohammad-eissa-1a915b2a9/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
         </div>
       </div>
 
