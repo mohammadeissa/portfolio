@@ -23,3 +23,23 @@
   font-weight: 800;
   text-shadow: 3px 3px 8px rgba(0,0,0,0.5);
 }
+
+
+/* ===== Responsive Styles for Business ===== */
+@media (max-width: 1024px) {
+  .overlay h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .business-page {
+    height: 80vh;
+  }
+
+  .overlay h1 {
+    font-size: 32px;
+    text-align: center;
+    padding: 0 20px;
+  }
+}

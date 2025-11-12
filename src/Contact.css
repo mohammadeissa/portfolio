@@ -57,3 +57,34 @@ p {
   color: var(--text-color);
   margin-top: 20px;
 }
+
+
+/* ===== Responsive Styles for Contact ===== */
+@media (max-width: 1024px) {
+  .page-container {
+    padding: 60px 30px;
+  }
+
+  form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 50px 20px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
