@@ -80,7 +80,7 @@
   width: 680px;
   height: 680px;
   border-radius: 50%;
-  background: var(--circle-bg-color);
+  background: rgba(0, 184, 148, 0.15);
   position: absolute;
   top: -40px;
   left: -40px;
